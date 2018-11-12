@@ -2,7 +2,7 @@ use std::default::Default;
 use std::fmt;
 use std::time::{Duration, Instant};
 
-#[derive(Clone, Copy)]
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub struct Stopwatch {
 	/// The time the stopwatch was started last, if ever.
 	start_time: Option<Instant>,
