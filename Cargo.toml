@@ -2,13 +2,13 @@
 
 name = "stopwatch"
 version = "0.0.7"
-authors = ["Chucky Ellison <cme@freefour.com>"]
+authors = ["T.J. Telan <tj@tjtelan.com>", "Chucky Ellison <cme@freefour.com>"]
 
 description = "A stopwatch library for timing things."
-repository = "https://github.com/ellisonch/rust-stopwatch"
+repository = "https://github.com/tjtelan/rust-stopwatch"
 readme = "README.md"
 keywords = ["stopwatch", "timing"]
 license = "MIT"
 
 [dependencies]
-num = "0.1.32"
+num = { version = "0.2", default_features = false }
